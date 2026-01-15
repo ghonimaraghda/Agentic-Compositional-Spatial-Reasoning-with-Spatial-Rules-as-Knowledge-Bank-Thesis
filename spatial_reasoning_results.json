@@ -1,0 +1,367 @@
+{
+  "metrics": {
+    "accuracy": 0.0,
+    "f1_score": 0.13333333333333333,
+    "correct": 0,
+    "total": 5
+  },
+  "results": [
+    {
+      "example": 0,
+      "question": "What is the relation of the agent W to the agent P?",
+      "gold": [
+        "below",
+        "left"
+      ],
+      "predicted": [
+        "above"
+      ],
+      "relations": [
+        [
+          "I",
+          "above",
+          "C",
+          1
+        ],
+        [
+          "E",
+          "above",
+          "Y",
+          1
+        ],
+        [
+          "E",
+          "above",
+          "Y",
+          1
+        ],
+        [
+          "F",
+          "below",
+          "K",
+          1
+        ],
+        [
+          "F",
+          "below",
+          "K",
+          1
+        ],
+        [
+          "F",
+          "below",
+          "K",
+          1
+        ],
+        [
+          "Y",
+          "below",
+          "Z",
+          1
+        ],
+        [
+          "F",
+          "right",
+          "K",
+          1
+        ],
+        [
+          "F",
+          "right",
+          "K",
+          1
+        ],
+        [
+          "F",
+          "right",
+          "K",
+          1
+        ],
+        [
+          "X",
+          "right",
+          "Y",
+          1
+        ]
+      ],
+      "dx": 0,
+      "dy": 1,
+      "correct": false
+    },
+    {
+      "example": 1,
+      "question": "What is the relation of the agent R to the agent O?",
+      "gold": [
+        "above",
+        "left"
+      ],
+      "predicted": [
+        "overlapping"
+      ],
+      "relations": [
+        [
+          "W",
+          "top left",
+          "center",
+          1
+        ],
+        [
+          "A",
+          "bottom right",
+          "center",
+          1
+        ],
+        [
+          "Q",
+          "above",
+          "E",
+          1
+        ],
+        [
+          "T",
+          "upper",
+          "B",
+          1
+        ],
+        [
+          "B",
+          "below",
+          "Z",
+          1
+        ],
+        [
+          "B",
+          "right",
+          "Z",
+          1
+        ],
+        [
+          "U",
+          "horizontal",
+          "V",
+          1
+        ],
+        [
+          "V",
+          "left",
+          "U",
+          1
+        ]
+      ],
+      "dx": 0,
+      "dy": 0,
+      "correct": false
+    },
+    {
+      "example": 2,
+      "question": "What is the relation of the agent G to the agent D?",
+      "gold": [
+        "above",
+        "left"
+      ],
+      "predicted": [
+        "above"
+      ],
+      "relations": [
+        [
+          "A",
+          "above",
+          "B",
+          1
+        ],
+        [
+          "Z",
+          "above",
+          "U",
+          1
+        ],
+        [
+          "K",
+          "below",
+          "U",
+          1
+        ],
+        [
+          "K",
+          "below",
+          "U",
+          1
+        ],
+        [
+          "T",
+          "left",
+          "M",
+          1
+        ],
+        [
+          "E",
+          "left",
+          "T",
+          1
+        ]
+      ],
+      "dx": 0,
+      "dy": 1,
+      "correct": false
+    },
+    {
+      "example": 3,
+      "question": "What is the relation of the agent C to the agent Q?",
+      "gold": [
+        "below",
+        "right"
+      ],
+      "predicted": [
+        "above"
+      ],
+      "relations": [
+        [
+          "Q",
+          "above",
+          "D",
+          1
+        ],
+        [
+          "Q",
+          "above",
+          "D",
+          1
+        ],
+        [
+          "Q",
+          "above",
+          "D",
+          1
+        ],
+        [
+          "Q",
+          "above",
+          "D",
+          1
+        ],
+        [
+          "A",
+          "above",
+          "B",
+          1
+        ],
+        [
+          "Q",
+          "above",
+          "D",
+          1
+        ],
+        [
+          "Q",
+          "above",
+          "D",
+          1
+        ],
+        [
+          "D",
+          "below",
+          "Q",
+          1
+        ],
+        [
+          "D",
+          "below",
+          "Q",
+          1
+        ],
+        [
+          "B",
+          "left",
+          "C",
+          1
+        ]
+      ],
+      "dx": 0,
+      "dy": 1,
+      "correct": false
+    },
+    {
+      "example": 4,
+      "question": "What is the relation of the agent Y to the agent P?",
+      "gold": [
+        "below",
+        "right"
+      ],
+      "predicted": [
+        "above"
+      ],
+      "relations": [
+        [
+          "M",
+          "above",
+          "A",
+          1
+        ],
+        [
+          "W",
+          "right",
+          "R",
+          1
+        ],
+        [
+          "W",
+          "right",
+          "R",
+          1
+        ],
+        [
+          "A",
+          "right",
+          "B",
+          1
+        ],
+        [
+          "X",
+          "right",
+          "Y",
+          1
+        ],
+        [
+          "W",
+          "right",
+          "R",
+          1
+        ],
+        [
+          "W",
+          "right",
+          "R",
+          1
+        ],
+        [
+          "X",
+          "right",
+          "Y",
+          1
+        ],
+        [
+          "X",
+          "right",
+          "Y",
+          1
+        ],
+        [
+          "X",
+          "right",
+          "Y",
+          1
+        ]
+      ],
+      "dx": 0,
+      "dy": 1,
+      "correct": false
+    }
+  ],
+  "pipeline": {
+    "agents": [
+      "Traversal Agent",
+      "Rule-Based Agent (Algorithm 1)"
+    ],
+    "model": "/storage/ukp/shared/shared_model_weights/models--Qwen3-8B"
+  }
+}
