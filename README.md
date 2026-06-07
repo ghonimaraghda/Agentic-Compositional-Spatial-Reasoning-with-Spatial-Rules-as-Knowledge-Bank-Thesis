@@ -131,10 +131,10 @@ front, back, left, right
 SpaRP-PS1 is evaluated using:
 
 * **Exact-match accuracy**
-* **Micro-averaged F1**
-
-Exact-match accuracy requires the predicted relation set to exactly match the gold label set.
-Micro-averaged F1 measures partial relation recovery across all labels.
+* **Macro-averaged F1**
+...
+Macro-averaged F1 measures partial relation recovery by computing F1 per relation label and averaging across labels.
+Macro-averaged F1 measures partial relation recovery across all labels.
 
 ## Plot Generation
 
